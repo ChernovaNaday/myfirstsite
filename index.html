@@ -1,13 +1,25 @@
-<!DOCTYPE html>
++<!DOCTYPE html>
 
 <html lang="ru">
     
     <head>
         <title>Главная страница</title>
+        <style>
+            td, th {
+                border: solid 1px rgb(40, 20, 170);
+            }
+            table {
+                border-collapse: collapse;
+            }
+
+        </style>
     </head>
     <body>
         <h1>Мой первый сайт</h1>
-      <p>Сегодня в питербурге</p>
+        <a href="#table-1">
+            <img src="img/каркарыч.png" alt="карикатура" width="200px" height="200px"/> 
+        </a>
+      <p>Сегодня в Питербурге</p>
         <p>прекрасная погода</p>
         <p>светит солнце</p>
         <p>И лето продолжается!</p>
@@ -29,10 +41,10 @@
         <li>Nexus 5X</li>
         <li>Lumia 950</li>
         <li>Siemens</li>
-          </ol>
+    </ol>
           <h2>Ненумерованный список</h2>
           <details>
-          <summary>Телефоны</summary>
+                      <summary>Телефоны</summary>
           <ol style="list-style-type:square ;color:blueviolet">
             <li style="color:blue">Iphone 11</li>
         <li>Galaxy S7</li>
@@ -42,5 +54,41 @@
           </ol>
           </details>
         <h></h>
+          
+
+           <table id="table-1" class="table-1">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                    <th>Телефон</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Семен</td>
+                    <td>Иванов</td>
+                    <td>2154874</td>
+                </tr>
+
+                 <tr>
+                    <td>Иван</td>
+                    <td>Семенов</td>
+                    <td>2859322</td>
+                 </tr>
+
+                  <tr>
+                    <td>Михайл</td>
+                    <td>Петрович</td>
+                    <td>9632541</td>
+                </tr>
+
+                   <tr>
+                    <td>Петр</td>
+                    <td>Иванов</td>
+                    <td>9625418</td>
+                   </tr>
+            </tbody>
+            </table>
     </body>
 </html>
