@@ -1,0 +1,51 @@
+.input-form{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 16px;
+    background: #f7f3f2;
+}
+
+.input-group
+{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 4px;
+    background: #fff;
+    
+  
+}
+.input-group label{
+        display: block;
+        margin-bottom: 5px;
+        color: black;
+        font-weight: bold;
+    
+
+}
+
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    border: ;
+}
+.input-group input:focus{
+    border-color: rgb(3, 3, 254);
+    outline: none;
+
+}
+
+.input-form button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background: blue;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+}
+.input-form button:hover {
+background: rgb(2, 2, 100);
