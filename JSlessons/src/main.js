@@ -96,9 +96,17 @@ $("p").defore("div")
 */
 $(document).ready(function () {
       $.ajax({
-       url: "../text.html", 
-       success: function(html){
-        $("#ajaxContent").append(html);
-       } 
+       url: "https://jsonplaceholder.typicode.com/todos/5",
+       type: "GET", 
+       success: function (data) {
+        for (key in data) {
+          $("#ajaxPicture").append(key + ":" + data[key] + "<br>");
+        }
+        },
+        error: function (error) {
+          $("#ajaxPicture").text(error)
+        }
+        
+         
       }) 
 });
